@@ -1,0 +1,315 @@
+//
+// _home.scss
+//
+
+/*********************************/
+/*            Home               */
+/*===============================*/
+
+@mixin home-common {
+    background-size: cover !important;
+    align-self: center;
+    position: relative;
+    background-position: center center;
+}
+
+.bg-home {
+    height: 100vh;    
+    @include home-common();
+    @media (max-width: 767px) {
+        padding: 150px 0 !important;
+        height: auto;
+    }
+}
+
+.bg-home-75vh {
+    height: 75vh !important;    
+    @include home-common();
+    @media (max-width: 767px) {
+        padding: 120px 0 !important;
+        height: auto;
+    }
+}
+
+.bg-home-70vh {
+    height: 70vh !important;    
+    @include home-common();
+    @media (max-width: 767px) {
+        padding: 120px 0;
+        height: auto;
+    }
+}
+
+.bg-half-260 {
+    padding: 260px 0;    
+    @include home-common();
+    @media (max-width: 768px) {
+        padding: 150px 0;
+        height: auto;
+    }
+}
+.bg-half-170 {
+    padding: 170px 0;    
+    @include home-common();
+    @media (max-width: 767px) {
+        padding: 120px 0;
+        height: auto;
+    }
+}
+.bg-half-130 {
+    padding: 130px 0 104px;    
+    @include home-common();
+}
+
+.bg-single-home,
+.aboutme {
+    padding-top: 36px;
+    padding-bottom: 100px;
+    
+    @media (max-width: 768px) {
+        padding: 100px 0 100px;
+    }
+}
+
+.bg-hero {
+    padding-top: 36px;
+    padding-bottom: 100px;
+    
+    @media (max-width: 768px) {
+        padding: 74px 0 100px;
+    }
+}
+
+.bg-half {
+    padding: 200px 0 100px;
+
+    @media (max-width: 768px) {
+        padding: 160px 0 60px;
+    }
+    @include home-common();
+}
+
+
+//slider post
+#carouselExampleInterval {
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 30px;
+        height: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: 30px;
+        border: 1px solid $gray-200;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 30%;
+    }
+
+    .carousel-control-next {
+        right: 8px;
+    }
+
+    .carousel-control-prev {
+        left: 8px;
+    }
+}
+
+.carousel-indicators {
+    [data-bs-target] {
+        width: 10px;
+        height: 10px;
+        background: rgba($primary, 0.5) !important;
+        transition: all 0.5s ease;
+        border: none;
+        margin: 0 3px;
+    }
+    .active {
+        background-color: $primary !important;
+    }
+}
+
+//Business
+.zoom-image {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.image-wrap {
+    position: absolute;
+    width: 100%;
+    animation: move 30s ease;
+}
+
+@keyframes move {
+    0% {
+        transform-origin: bottom;
+        transform: scale(1.0);
+    }
+
+    100% {
+        transform: scale(1.4);
+    }
+}
+
+//studio
+.studio-wrapper {
+    &:before {
+        content: "";
+        position: absolute;
+        bottom: 14rem;
+        left: 50rem;
+        width: 60rem;
+        height: 30rem;
+        border-radius: 18rem;
+        transform: rotate(135deg);
+        background-color: rgba($primary, 0.1);
+
+        @media (min-width: 1024px) and (max-width: 1140px) {
+            bottom: 10rem;
+            left: 30rem;
+            width: 40rem;
+            height: 20rem;
+        }
+        
+        @media (max-width: 768px) {
+            left: 12rem;
+        }
+        
+        @media (max-width: 767px) {
+            left: 0;
+        }
+    }
+}
+
+.startup-wrapper {
+    &:before {
+        content: "";
+        position: absolute;
+        bottom: 10rem;
+        left: 45rem;
+        width: 90rem;
+        height: 35rem;
+        transform: rotate(115deg);
+        background-color: $primary;
+
+        @media (min-width: 1024px) and (max-width: 1140px) {
+            left: 10rem;
+            width: 75rem;
+            height: 30rem;
+        }
+        
+        @media (max-width: 768px) {
+            left: 10rem;
+        }
+        
+        @media (max-width: 767px) {
+            left: 0;
+        }
+    }
+
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: 25rem;
+        left: 30rem;
+        width: 75rem;
+        height: 10rem;
+        transform: rotate(115deg);
+        background-color: rgba($primary, 0.1);
+        z-index: -1;
+
+        @media (min-width: 1024px) and (max-width: 1140px) {
+            left: 0rem;
+            width: 75rem;
+            height: 15rem;
+            bottom: 20rem;
+        }
+        
+        @media (max-width: 768px) {
+            left: 0;
+        }
+        
+        @media (max-width: 767px) {
+            left: -10rem;
+        }
+    }
+}
+
+
+//Saas
+.home-dashboard {
+    img {
+        position: relative;
+        top: 60px;
+        z-index: 1;
+    }
+}
+
+//slider image home
+.slide-image {
+    animation: slideleft 20000s infinite linear;
+}
+@keyframes slideleft {
+    from {
+        background-position: 0%;
+    }
+    to {
+        background-position: 90000%;
+    }
+}
+
+//Personal
+.personal-hero {
+    &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        bottom: -20rem;
+        width: 50rem;
+        height: 50rem;
+        right: 150px;
+        left: 0;
+        margin: 0 auto;
+        border-radius: 50%;
+        background: rgba($primary, 1);
+        @media (max-width: 576px) {
+            width: 30rem;
+            height: 30rem;
+            bottom: -10rem;
+        }
+    }
+
+    .personal-overlay {
+        visibility: hidden !important;
+    }
+
+    @media (max-width: 768px) {
+        .personal-overlay {
+            visibility: visible !important;
+        }
+
+        .title,
+        .sub-title {
+            color: $white;
+        }
+        .para {
+            color: rgba($white, 0.5);
+        }
+    }
+}
+
+@media (min-width: 769px) {
+    .personal-hero {
+        .personal-hero-para {
+            position: absolute;
+            top: 50%;
+            backdrop-filter: blur(12px);
+            background-color: rgba($white, 0.5);
+            z-index: 1;
+            padding: 24px;
+        }
+    }
+}

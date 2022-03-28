@@ -1,0 +1,79 @@
+//
+// _gym.scss
+//
+
+/*********************************/
+/*         gym                   */
+/*===============================*/
+body {
+    &.gym-scss {
+        font-family: "Ubuntu", sans-serif !important;
+        font-size: 16px;
+    }
+}
+
+.gym-scss {
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+        font-family: "Teko", sans-serif !important;
+        line-height: 1.2 !important;
+        font-weight: 500 !important;
+    }
+
+    #topnav .navigation-menu > li > a{
+        font-family: "Teko", sans-serif !important;
+    }
+    #topnav {
+        .navigation-menu {
+            &>li {
+                &>a {
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    //Title
+    .title-heading {
+        .heading {
+            font-size: 80px !important;
+            @media (max-width: 768px) {
+                font-size: 64px !important;
+            }
+        }
+        .para-desc {
+            font-size: 18px;
+        }
+    }
+
+    .section-title {
+        position: relative;
+        .sub-title {
+            font-size: 20px !important;
+        }
+        .title {
+            font-size: 42px !important;
+            @media (max-width: 768px) {
+                font-size: 36px !important;
+            }
+        }
+    } 
+
+    .categories-filter {
+        .categories {
+            font-size: 20px !important;
+        }
+    }
+
+    .schedule-time {
+        .content {
+            .ex-name {
+                font-size: 20px !important;
+            }
+        }
+    }
+
+    .fw-normal {
+        font-weight: 400 !important;
+    }
+}

@@ -1,0 +1,304 @@
+.bg-primary,
+.bg-soft-primary,
+.text-border-primary:after,
+.btn-primary,
+.btn-soft-primary:hover,
+.btn-soft-primary:focus,
+.btn-soft-primary:active,
+.btn-soft-primary.active,
+.btn-soft-primary.focus,
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary.active,
+.btn-outline-primary.focus,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.btn-link.primary:after,
+.nav-pills .nav-link.active,
+.form-check-input.form-check-input:checked,
+.social-icon li a:hover,
+.back-to-top,
+#topnav .navbar-toggle.open span:hover,
+#navmenu-nav li.account-menu.active .navbar-link,
+#navmenu-nav li.account-menu:hover .navbar-link,
+.carousel-indicators .active,
+.startup-wrapper:before,
+.personal-hero:before,
+.tagcloud a:hover,
+.portfolio.portfolio-primary .bg,
+.portfolio.portfolio-primary .btn,
+.timeline-page .timeline-item .date-label-left:after,
+.timeline-page .timeline-item .duration-right:after,
+.features.feature-primary .btn-color,
+.features.feature-primary .btn-soft:hover,
+.features.feature-primary .btn-soft:focus,
+.features.feature-primary .btn-soft:active,
+.features.feature-primary .btn-soft.active,
+.features.feature-primary .btn-soft.focus,
+.features.feature-primary.category:hover .icons i,
+.tns-controls button[data-controls="prev"]:hover,
+.tns-controls button[data-controls="next"]:hover,
+.testi-carousel .carousel-control-next-icon,
+.testi-carousel .carousel-control-prev-icon,
+.ribbon.ribbon-primary span,
+.team.team-primary .btn,
+.contact-show-btn:before {
+    background-color: #2a52c3 !important;
+}
+
+.text-primary,
+.bg-soft-primary,
+a.text-primary:hover,
+a.text-primary:focus,
+.component-wrapper.sticky-bar li a:hover,
+.component-wrapper.sticky-bar li a:focus,
+.btn-soft-primary,
+.btn-outline-primary,
+.btn-link.primary:hover,
+.btn-link.primary:focus,
+.btn-link.primary:active,
+.btn-link.primary.active,
+.btn-link.primary.focus,
+.btn-link.primary:not(:disabled):not(.disabled):active,
+.dropdown-primary .dropdown-menu .dropdown-item:hover,
+.dropdown-primary .dropdown-menu .dropdown-item.active,
+.dropdown-primary .dropdown-menu .dropdown-item:active,
+.dropdown-primary .dropdown-menu .dropdown-item.focus,
+.dropdown-primary .dropdown-menu .dropdown-item:focus,
+.alert-outline-primary,
+.breadcrumb .breadcrumb-item a:hover,
+.breadcrumb .breadcrumb-item.active,
+.pagination .page-item .page-link:hover,
+.pagination .page-item.active .page-link,
+.accordion .accordion-item .accordion-button:before,
+.social-icon.tagline-social li a i:hover,
+#topnav .has-submenu.active .submenu li.active>a,
+#topnav .navigation-menu>li:hover>a,
+#topnav .navigation-menu>li.active>a,
+#topnav .navigation-menu>li>a:hover,
+#topnav .navigation-menu>li>a:active,
+#topnav.scroll .navigation-menu>li:hover>a,
+#topnav.scroll .navigation-menu>li.active>a,
+#topnav.nav-sticky .navigation-menu.nav-light>li.active>a,
+#topnav.nav-sticky .navigation-menu.nav-light>li:hover>a,
+#topnav.nav-sticky .navigation-menu.nav-light>li.active>a,
+#topnav .navigation-menu>li .submenu li a:hover,
+#topnav .navigation-menu>li:hover>a,
+#topnav .navigation-menu>li.active>a,
+#topnav .navigation-menu>li>a:hover,
+#topnav .navigation-menu>li .submenu li a:hover,
+#topnav .navigation-menu>li.has-submenu.open>a,
+#topnav .has-submenu.active a,
+#navmenu-nav li.active a,
+.blog.blog-primary .title:hover,
+.blog.blog-primary .link:hover,
+.blog.blog-primary .link,
+.widget .widget-post-title:hover,
+.portfolio.portfolio-primary .title:hover,
+.portfolio.portfolio-primary .lightbox-icon a:hover,
+.portfolio.portfolio-primary .link,
+.features.feature-primary .icons i,
+.features.feature-primary .title:hover,
+.features.feature-primary .fea-icon,
+.features.feature-primary .link,
+.features.feature-primary .bg-soft,
+.features.feature-primary .feature-icon i,
+.switcher-pricing .toggler--is-active,
+.team.team-primary .title:hover,
+.accordion .accordion-item .accordion-button:not(.collapsed),
+.filter-search-form .icons {
+    color: #2a52c3 !important;
+}
+
+.border-primary,
+.btn-primary,
+.btn-soft-primary:hover,
+.btn-soft-primary:focus,
+.btn-soft-primary:active,
+.btn-soft-primary.active,
+.btn-soft-primary.focus,
+.btn-outline-primary,
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary.active,
+.btn-outline-primary.focus,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.alert-primary,
+.alert-outline-primary,
+.blockquote-wrapper .blockquote:after,
+.form-control:focus,
+.form-check-input:focus,
+.form-check-input.form-check-input:checked,
+.social-icon li a:hover,
+#topnav .has-submenu.active.active .menu-arrow,
+#topnav .has-submenu .submenu .has-submenu .submenu .has-submenu:hover .submenu-arrow,
+#topnav .has-submenu .submenu .has-submenu:hover>.submenu-arrow,
+#topnav.scroll .navigation-menu>li:hover>.menu-arrow,
+#topnav.scroll .navigation-menu>li.active>.menu-arrow,
+#topnav.nav-sticky .navigation-menu.nav-light>li:hover>.menu-arrow,
+#topnav.nav-sticky .navigation-menu.nav-light>li.active>.menu-arrow,
+#topnav .navigation-menu>li:hover>.menu-arrow,
+.portfolio.portfolio-primary .btn,
+.features.feature-primary .btn-color,
+.features.feature-primary .btn-soft:hover,
+.features.feature-primary .btn-soft:focus,
+.features.feature-primary .btn-soft:active,
+.features.feature-primary .btn-soft.active,
+.features.feature-primary .btn-soft.focus,
+.tns-nav button.tns-nav-active,
+.team.team-primary .btn {
+    border-color: #2a52c3 !important;
+}
+
+.btn-primary,
+.btn-soft-primary,
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary.active,
+.btn-outline-primary.focus,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.portfolio.portfolio-primary .btn,
+.features.feature-primary .btn-soft,
+.team.team-primary .btn {
+    box-shadow: 0 3px 5px 0 rgba(42, 82, 195, 0.1) !important;
+}
+
+.features.feature-primary .icons i,
+.features.feature-primary .btn-soft,
+.studio-wrapper:before {
+    background: rgba(42, 82, 195, 0.1) !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.focus,
+.portfolio.portfolio-primary .btn:hover,
+.portfolio.portfolio-primary .btn:focus,
+.portfolio.portfolio-primary .btn:active,
+.portfolio.portfolio-primary .btn.active,
+.portfolio.portfolio-primary .btn.focus,
+.features.feature-primary .btn-color:hover,
+.features.feature-primary .btn-color:focus,
+.features.feature-primary .btn-color:active,
+.features.feature-primary .btn-color.active,
+.features.feature-primary .btn-color.focus,
+.team.team-primary .btn:hover,
+.team.team-primary .btn:focus,
+.team.team-primary .btn:active,
+.team.team-primary .btn.active,
+.team.team-primary .btn.focus {
+    background-color: #214099 !important;
+    border-color: #214099 !important;
+}
+
+.social-icon li a:hover .fea-social {
+    fill: #2a52c3 !important;
+}
+
+.btn-soft-primary {
+    border-color: rgba(42, 82, 195, 0.05) !important;
+}
+
+.alert-primary {
+    background-color: rgba(42, 82, 195, 0.9) !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    background: rgba(42, 82, 195, 0.5) !important;
+}
+
+.portfolio.portfolio-primary .img-bg,
+.features.feature-primary .feature-ovelay-three {
+    background-color: rgba(42, 82, 195, 0.15) !important;
+}
+
+.bg-soft-primary,
+.btn-soft-primary,
+.features.feature-primary .feature-ovelay-one,
+.features.feature-primary.category:hover {
+    background-color: rgba(42, 82, 195, 0.05) !important;
+}
+
+.bg-blur-primary {
+    backdrop-filter: blur(12px);
+    background-color: rgba(42, 82, 195, 0.8) !important;
+}
+
+.bg-gradient-primary {
+    background: linear-gradient(to left, #4d499e 0%, #214099 100%) !important;
+}
+
+.bg-primary-gradient-overlay {
+    background: linear-gradient(to bottom, rgba(42, 82, 195, 0) 0%, rgba(42, 82, 195, 0.25) 25%, rgba(42, 82, 195, 0.5) 50%, rgba(42, 82, 195, 0.75) 75%, #2a52c3 100%) !important;
+}
+
+.app-feature-shape-right:after,
+.app-feature-shape-left:after,
+.startup-wrapper:after,
+.features.feature-primary .bg-soft,
+.features.feature-primary .feature-ovelay-two,
+.features.feature-primary:hover .feature-icon i {
+    background: rgba(42, 82, 195, 0.1) !important;
+}
+
+.app-feature-shape-right:after,
+.app-feature-shape-left:after {
+    box-shadow: 0 0 40px rgba(42, 82, 195, 0.1) !important;
+}
+
+.background-effect .circles li,
+#topnav .navigation-menu.personal-menu>li:hover>a:after,
+#topnav .navigation-menu.personal-menu>li.active>a:after {
+    background: rgba(42, 82, 195, 0.25) !important;
+}
+
+.play-icon i,
+.play-btn i {
+    -webkit-text-stroke: 2px #2a52c3 !important;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-icon i:hover,
+.play-btn i:hover {
+    -webkit-text-stroke: 2px #2a52c3 !important;
+    -webkit-text-fill-color: #2a52c3 !important;
+}
+
+.features.feature-primary .btn-color,
+.features.feature-primary .btn-soft {
+    box-shadow: 0 3px 5px 0 rgba(42, 82, 195, 0.3) !important;
+}
+
+.features.feature-primary .feature-icon i {
+    border-color: rgba(42, 82, 195, 0.1) !important;
+}
+
+.features.feature-primary.feature-image {
+    border-image: linear-gradient(to right, #2a52c3, #efbad3) 10 !important;
+}
+
+.tns-nav button {
+    border-color: rgba(42, 82, 195, 0.5) !important;
+}
+
+.ribbon.ribbon-primary span:before {
+    border-left-color: #214099 !important;
+    border-top-color: #214099 !important;
+}
+
+.ribbon.ribbon-primary span:after {
+    border-right-color: #214099 !important;
+    border-top-color: #214099 !important;
+}
+
+.contact-show-btn:before {
+    box-shadow: 0 10px 25px rgba(42, 82, 195, 0.5) !important;
+}
+
+.photography-scss .container-filter .categories:after {
+    background-color: rgba(42, 82, 195, 0.4) !important;
+}

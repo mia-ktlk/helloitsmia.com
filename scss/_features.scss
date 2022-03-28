@@ -1,0 +1,208 @@
+//
+// _features.scss
+//
+
+/*********************************/
+/*         Features              */
+/*===============================*/
+.features {
+    @each $name,
+    $value in $colors {
+        &.feature-#{$name} {
+            .icons {
+                i {
+                    background: rgba($value, 0.1);
+                    color: $value;
+                }
+            }
+            .title {
+                &:hover {
+                    color: $value !important;
+                }
+            }
+            .fea-icon,
+            .link {
+                color: $value !important;
+            }
+            .btn-color {
+                background-color: #{$value} !important;
+                border: 1px solid #{$value} !important;
+                color: $white !important;
+                box-shadow: 0 3px 5px 0 rgba($value, 0.3);
+                &:hover, &:focus, &:active, &.active, &.focus{
+                    background-color: darken($value, 10%) !important;
+                    border-color: darken($value, 10%) !important;
+                    color: $white !important;
+                }
+            }
+            .bg-soft {
+                background-color: rgba($value, 0.1) !important;
+                color: #{$value} !important;
+            }
+        
+            .btn-soft {
+                background-color: rgba($value, 0.1) !important;
+                border: 1px solid rgba($value, 0.1) !important;
+                color: #{$value} !important;
+                box-shadow: 0 3px 5px 0 rgba($value, 0.3);
+                &:hover, &:focus, &:active, &.active, &.focus{
+                    background-color: #{$value} !important;
+                    border-color: #{$value} !important;
+                    color: $white !important;
+                }
+            }
+
+            .feature-ovelay-one {
+                background-color: rgba($value, 0.05);
+            }
+
+            .feature-ovelay-two {
+                background-color: rgba($value, 0.1);
+            }
+
+            .feature-ovelay-three {
+                background-color: rgba($value, 0.15);
+            }
+
+            .feature-icon {
+                i {
+                    color: $value;
+                    border: 2px solid rgba($value, 0.1);
+                }
+            }
+
+            &:hover {
+                .feature-icon {
+                    i {
+                        background: rgba($value, 0.1);
+                    }
+                }
+            }
+            &.feature-image {
+                border-top: 8px solid;
+                border-image: linear-gradient(to right, $value, #efbad3) 10;
+            }
+
+            &.category {
+                &:hover {
+                    background: rgba($value, 0.05);
+                    .icons {
+                        i {
+                            background: $value;
+                            color: $white !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.features {
+    transition: all 0.5s ease;
+    &.category,
+    &.category .icons i,
+    .title {
+        transition: all 0.5s ease;
+    }
+    &.feature-clean {
+        .icons {
+            i {
+                height: 65px;
+                width: 65px;
+                display: flex !important;
+                align-items: center;
+                justify-content: center;
+            }
+            &.bg-lg {
+                    i {
+                        height: 110px;
+                        width: 110px;
+                    }
+            }
+            &.bg-md {
+                    i {
+                        height: 85px;
+                        width: 85px;
+                    }
+            }
+        }
+    }
+
+    &.feature-transition {
+        transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s !important;
+        &:hover {
+            box-shadow: $shadow-md !important;
+            transform: translateY(-10px);
+        }
+    }
+
+    .feature-ovelay-one,
+    .feature-ovelay-two,
+    .feature-ovelay-three {
+        position: absolute;
+        width: 0;
+        height: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 50%;
+        transition: all 2s ease;
+        z-index: 0;
+    }
+    &:hover {
+        .feature-ovelay-one {
+            width: 200px;
+            height: 200px;
+            right: -60px;
+            bottom: -60px;
+        }
+        .feature-ovelay-two {
+            width: 150px;
+            height: 150px;
+            right: -40px;
+            bottom: -40px;
+        }
+        .feature-ovelay-three {
+            width: 100px;
+            height: 100px;
+            right: -20px;
+            bottom: -20px;
+        }
+    }
+    &.feature-border-light {
+        border: 1px dashed rgba($white, 0.2);
+    }
+
+    .feature-icon {
+        i {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.5s ease;
+        }
+    }
+
+    &.feature-image {
+        .overlay {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            opacity: 0;
+            transition: all 0.5s ease;
+        }
+        .fea-title {
+            opacity: 0;
+            transition: all 0.5s ease;
+        }
+        &:hover {
+            .overlay,
+            .fea-title {
+                opacity: 1;
+            }
+        }
+    }
+}

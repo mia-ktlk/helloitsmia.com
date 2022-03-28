@@ -1,0 +1,80 @@
+//
+// _photography.scss
+//
+
+/*********************************/
+/*         Photography           */
+/*===============================*/
+.photography-scss {
+    .photo-phase {
+        transition: all 0.5s ease;
+        .link {
+            position: absolute;
+            bottom: 10px;
+            right: 0;
+            left: 0;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        &:hover {
+            .link {
+                bottom: 20px;
+                color: $white !important;
+            }
+        }
+    }
+
+    //Portfolio
+    .container-filter {
+        li {
+            font-size: 16px; 
+            color: $muted !important;
+            line-height: 34px;
+            transition: all 0.5s ease;
+            &.active,
+            &:hover {
+                color: $dark !important;
+            }
+        }
+        .categories {
+            &:after {
+                content: "";
+                position: absolute;
+                height: 0;
+                width: 0;
+                background-color: rgba($primary, 0.4);
+                right: 0;
+                left: 0;
+                bottom: 6px;
+                border-radius: 5px;
+                transition: all 0.5s ease;
+            }
+            &.active,
+            &:hover {
+                &:after {
+                    width: 100%;
+                    right: auto;
+                    left: 0;
+                    height: 6px;
+                    top: 60%;
+                }
+            }
+        }
+    }
+
+    //Footer
+    footer {
+        position: relative;
+        color: $gray-500;
+        
+        .footer-border,
+        .footer-bar {
+            border-top: 1px solid lighten($footer, 5%);
+            z-index: 1;
+            position: relative;
+        }
+        .border {
+            border-color: lighten($footer, 5%) !important;
+        }
+    }
+}
